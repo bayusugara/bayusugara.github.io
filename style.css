@@ -149,7 +149,7 @@ nav.sticky .menu-btn{
 .home .button{
   margin: 14px 0;
 }
-.home .button button{
+.home .button a{
   outline: none;
   padding: 8px 16px;
   border-radius: 6px;
@@ -161,7 +161,7 @@ nav.sticky .menu-btn{
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
-.home .button button:hover{
+.home .button a:hover{
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
@@ -429,7 +429,7 @@ footer .text span a:hover{
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;
-    width: 350px;
+    /* width: 350px; */
   }
 }
 
