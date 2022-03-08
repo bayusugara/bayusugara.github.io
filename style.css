@@ -27,6 +27,7 @@
 /* navbar styling */
 nav{
   position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 20px 0;
   z-index: 998;
@@ -63,7 +64,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #fff;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -111,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("images/background.png") no-repeat;
+  background: url("images/2.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -127,10 +128,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #fff;
 }
 .home .text-two{
-  color: #0E2431;
+  color: #fff;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -143,7 +144,7 @@ nav.sticky .menu-btn{
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: #fff;
 }
 .home .button{
   margin: 14px 0;
@@ -211,16 +212,17 @@ section .title span::after{
   transform: translateX(-50%);
 }
 .about .about-details .left{
-  width: 45%;
+  width: 40%;
+  text-align: center;
 }
 .about .left img{
   height: 400px;
-  width: 400px;
-  object-fit: cover;
+  /* width: 400px; */
+  /* object-fit: cover; */
   border-radius: 12px;
 }
 .about-details .right{
-  width: 55%;
+  width: 60%;
 }
 section  .topic{
   color: #0E2431;
@@ -233,9 +235,9 @@ section  .topic{
   color: #0E2431;
 }
 section .button{
-  margin: 16px 0;
+  margin: 20px 0;
 }
-section .button button{
+section .button a{
   outline: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -247,7 +249,7 @@ section .button button{
   cursor: pointer;
   transition: all 0.4s ease;
 }
-section .button button:hover{
+section .button a:hover{
   border-color: #4070f4;
   background-color: #fff;
   color: #4070f4;
