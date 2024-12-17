@@ -53,6 +53,7 @@ nav .navbar .logo a{
 }
 nav.sticky .navbar .logo a{
   color: #fff;
+  text-shadow: -1px -1px 0 #4070f4, 1px -1px 0 #4070f4, -1px 1px 0 #4070f4, 1px 1px 0 #4070f4; /* Garis hitam */
 }
 nav .navbar .menu{
   display: flex;
